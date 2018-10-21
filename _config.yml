@@ -1,0 +1,63 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: 程序员肖邦的博客
+brief-intro: 享受编程和技术所带来的快乐
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://liwei0526vip.github.io" # the base hostname & protocol for your site
+
+permalink: /articles/:title.html
+# permalink: /:year/:month/:day/:title/
+
+# other links
+twitter_username: #gaohaoyang126
+facebook_username: #gaohaoyang.water
+github_username:  liwei0526vip
+email: liwei0526vip@163.com
+weibo_username: 3115521wh
+zhihu_username: liwei0526vip
+linkedIn_username: gaohaoyang
+dribbble_username:
+
+description_footer: 来自程序员肖邦的个人博客！
+
+# comments
+# two ways to comment, only choose one, and use your own short name
+# 两种评论插件，选一个就好了，使用自己的 short_name
+duoshuo_shortname: #hygblog
+disqus_shortname: #gaohaoyang
+gitment: liwei0526vip
+
+# statistic analysis 统计代码
+# 百度统计 id，将统计代码替换为自己的百度统计id，即
+# hm.src = "//hm.baidu.com/hm.js?xxxxxxxxxxxx";
+# xxxxx字符串
+baidu_tongji_id: 9591f1f3e15dd000e8c88fb4c9ae4ad7
+google_analytics_id: #UA-72449510-4 # google 分析追踪id
+
+# Build settings
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# port
+host: 0.0.0.0
+port: 8000
+
+# url
+category_dir: category/
+tag_dir: tag/
+
+# excerpt
+excerpt_separator: "\n\n\n\n"
+
+# paginate
+plugins: [jekyll-paginate]
+paginate: 6

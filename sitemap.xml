@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://www.linuxblogs.cn/</loc>
+  <lastmod>2018-08-25T07:19:48+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.linuxblogs.cn/archive/</loc>
+  <lastmod>2018-08-25T07:19:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.linuxblogs.cn/category/</loc>
+  <lastmod>2018-08-25T07:19:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.linuxblogs.cn/tag/</loc>
+  <lastmod>2018-08-25T07:19:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.linuxblogs.cn/collection/</loc>
+  <lastmod>2018-08-25T07:19:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.linuxblogs.cn/about/</loc>
+  <lastmod>2018-08-25T07:19:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.linuxblogs.cn/articles/ipvsadm-user-manual.html</loc>
+  <lastmod>2018-08-25T07:19:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.linuxblogs.cn/articles/linux-kvm-skill.html</loc>
+  <lastmod>2018-08-25T07:19:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.linuxblogs.cn/articles/linux-basic-io-01.html</loc>
+  <lastmod>2018-08-25T07:19:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.linuxblogs.cn/articles/daemon-linux.html</loc>
+  <lastmod>2018-08-25T07:19:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.linuxblogs.cn/articles/update-py26-to-py27.html</loc>
+  <lastmod>2018-08-25T07:19:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.linuxblogs.cn/articles/centos7-nic-ethx.html</loc>
+  <lastmod>2018-08-25T07:19:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.linuxblogs.cn/articles/how-to-use-babel.html</loc>
+  <lastmod>2018-08-25T07:19:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.linuxblogs.cn/articles/JavaScript-good-parts-note3.html</loc>
+  <lastmod>2018-08-25T07:19:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.linuxblogs.cn/articles/JavaScript-good-parts-note2.html</loc>
+  <lastmod>2018-08-25T07:19:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.linuxblogs.cn/articles/JavaScript-good-parts-note1.html</loc>
+  <lastmod>2018-08-25T07:19:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.linuxblogs.cn/articles/regular-expression-group.html</loc>
+  <lastmod>2018-08-25T07:19:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.linuxblogs.cn/articles/jekyll-theme-version-2.0.html</loc>
+  <lastmod>2018-08-25T07:19:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.linuxblogs.cn/articles/History-API.html</loc>
+  <lastmod>2018-08-25T07:19:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.linuxblogs.cn/articles/low-IE-click-empty-block-bug.html</loc>
+  <lastmod>2018-08-25T07:19:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.linuxblogs.cn/articles/JavaScript-Net.html</loc>
+  <lastmod>2018-08-25T07:19:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.linuxblogs.cn/articles/weinre.html</loc>
+  <lastmod>2018-08-25T07:19:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.linuxblogs.cn/articles/web-app.html</loc>
+  <lastmod>2018-08-25T07:19:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.linuxblogs.cn/articles/JavaScript-Object-Oriented.html</loc>
+  <lastmod>2018-08-25T07:19:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.linuxblogs.cn/articles/JavaScript-closure.html</loc>
+  <lastmod>2018-08-25T07:19:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.linuxblogs.cn/articles/JavaScript-this.html</loc>
+  <lastmod>2018-08-25T07:19:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.linuxblogs.cn/articles/JavaScript-function.html</loc>
+  <lastmod>2018-08-25T07:19:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.linuxblogs.cn/articles/lenovo-front-end-interview.html</loc>
+  <lastmod>2018-08-25T07:19:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.linuxblogs.cn/articles/scope.html</loc>
+  <lastmod>2018-08-25T07:19:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.linuxblogs.cn/articles/front-end-tools.html</loc>
+  <lastmod>2018-08-25T07:19:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.linuxblogs.cn/articles/baidu-ife-2-javascript.html</loc>
+  <lastmod>2018-08-25T07:19:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.linuxblogs.cn/articles/baidu-ife-1.html</loc>
+  <lastmod>2018-08-25T07:19:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.linuxblogs.cn/articles/Syncing-a-fork.html</loc>
+  <lastmod>2018-08-25T07:19:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.linuxblogs.cn/articles/arrays-similar.html</loc>
+  <lastmod>2018-08-25T07:19:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.linuxblogs.cn/articles/sublimeLinter.html</loc>
+  <lastmod>2018-08-25T07:19:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.linuxblogs.cn/articles/teach-girlfriend-html-css.html</loc>
+  <lastmod>2018-08-25T07:19:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.linuxblogs.cn/articles/create-my-blog-with-jekyll.html</loc>
+  <lastmod>2018-08-25T07:19:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
