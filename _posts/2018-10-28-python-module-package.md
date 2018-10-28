@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Python 模块(Module)与包(Package)的使用"
+title:  "Python 模块与包的使用"
 categories: Python基础
 tags: Python import
 author: 肖邦
