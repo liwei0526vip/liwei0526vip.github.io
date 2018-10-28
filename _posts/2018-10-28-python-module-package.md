@@ -2,7 +2,7 @@
 layout: post
 title:  "Python 模块与包的使用"
 categories: Python基础
-tags: Python import
+tags: Python 包 模块
 author: 肖邦
 ---
 
