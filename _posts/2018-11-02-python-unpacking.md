@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Python基础操作之解包(unpacking)"
+title:  "Python基础操作之解包unpacking"
 categories: Python基础
 tags: Python
 author: 肖邦
