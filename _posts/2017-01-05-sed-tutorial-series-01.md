@@ -17,7 +17,7 @@ author: 肖邦
 本系列文章目录：
 * **sed 入门教程系列 01：基本原理介绍**
 * [sed 入门教程系列 02：基本正则表达式](/articles/sed-tutorial-series-02.html)
-* [sed 入门教程系列 03：扩展正则表达式](/articles/sed-tutorial-series-03html)
+* [sed 入门教程系列 03：扩展正则表达式](/articles/sed-tutorial-series-03.html)
 * [sed 入门教程系列 04：sed语法和常用选项](/articles/sed-tutorial-series-04.html)
 * [sed 入门教程系列 05：数字定址和正则定址](/articles/sed-tutorial-series-05.html)
 * [sed 入门教程系列 06：基本子命令](/articles/sed-tutorial-series-06.html)
