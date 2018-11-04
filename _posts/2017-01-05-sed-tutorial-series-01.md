@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "sed入门教程系列之基本原理"
+title:  "sed入门教程系列之基本原理介绍"
 categories: Linux工具
 tags: sed
 author: 肖邦
@@ -15,16 +15,16 @@ author: 肖邦
 
 
 本系列文章目录：
-* sed 入门教程系列 01：基本原理介绍
-* [sed 入门教程系列 02：基本正则表达式](/articles/sed-tutorial-series-01.html)
-* sed 入门教程系列 03：扩展正则表达式
-* sed 入门教程系列 04：sed语法和常用选项
-* sed 入门教程系列 05：数字定址和正则定址
-* sed 入门教程系列 06：基本子命令
-* sed 入门教程系列 07：sed工作模式
-* sed 入门教程系列 08：高级子命令
-* sed 入门教程系列 09：分支和测试
-* sed 入门教程系列 10：sed实战练习
+* **sed 入门教程系列 01：基本原理介绍**
+* [sed 入门教程系列 02：基本正则表达式](/articles/sed-tutorial-series-02.html)
+* [sed 入门教程系列 03：扩展正则表达式](/articles/sed-tutorial-series-03html)
+* [sed 入门教程系列 04：sed语法和常用选项](/articles/sed-tutorial-series-04.html)
+* [sed 入门教程系列 05：数字定址和正则定址](/articles/sed-tutorial-series-05.html)
+* [sed 入门教程系列 06：基本子命令](/articles/sed-tutorial-series-06.html)
+* [sed 入门教程系列 07：sed工作模式](/articles/sed-tutorial-series-07.html)
+* [sed 入门教程系列 08：高级子命令](/articles/sed-tutorial-series-08.html)
+* [sed 入门教程系列 09：分支和测试](/articles/sed-tutorial-series-09.html)
+* [sed 入门教程系列 10：sed实战练习](/articles/sed-tutorial-series-10.html)
 
 ## 基本原理介绍
 **1、sed介绍**
