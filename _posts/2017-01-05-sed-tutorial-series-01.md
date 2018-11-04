@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "sed入门教程系列之基本原理介绍"
+title:  "sed入门教程系列之：基本原理介绍"
 categories: Linux工具
 tags: sed
 author: 肖邦
