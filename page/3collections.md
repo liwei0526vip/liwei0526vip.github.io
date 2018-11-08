@@ -17,6 +17,7 @@ type: page
 * **[李运华 CSDN 博客](https://blog.csdn.net/yunhua_lee)**。极客时间《从 0 开始学架构》作者，主要分享架构设计类文章。
 * **[廖雪峰官方网站](https://www.liaoxuefeng.com/)**。分享教程有 Python、Git、JS、Java 等。
 * **[Python之禅网站](https://foofish.net/)**。分享Python相关文章，Python之禅公众号作者。
+* **[陶辉笔记](https://www.taohui.pub)**。《深入理解 Nginx》作者。
 
 ## 编程语言
 
