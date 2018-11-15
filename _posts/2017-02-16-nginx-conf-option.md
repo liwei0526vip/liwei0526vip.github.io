@@ -20,7 +20,7 @@ author: 肖邦
 
   定义运行 nginx 服务进程的用户，还可以加上组，如：user nobody nobody;
 * worker_processes 1;
-  
+ 
   定义 worker 进程的数量，一般设置和 CPU 核数保持一致。还可以设置为 auto，表示让系统自动调整。
 * error_log logs/error.log;
 
