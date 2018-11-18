@@ -11,6 +11,9 @@ author: 肖邦
 
 > Nginx 配置文件中常用参数的含义总结。
 
+
+
+
 ## 全局配置
 
 * user nobody;
