@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Teach Girlfriend to make a Web Pages like Zhihu"
-date:   2015-03-21 15:14:54
-categories: Bootstrap
-tags: BootStrap HTML CSS Zhihu
+title:  "Chrome插件vimium快捷键"
+categories: 工具效率
+tags: 工具效率
+author: 肖邦
 ---
 
 * content
