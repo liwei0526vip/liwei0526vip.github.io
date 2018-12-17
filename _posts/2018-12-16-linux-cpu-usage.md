@@ -96,6 +96,41 @@ top 并没有细分进程的用户态 CPU 和内核态 CPU。可以使用 pidsta
 实际使用中，我们还经常为 perf top 和 perf record 加上 -g 参数，开启调用关系的采样，方便我们根据调用链来分析性能问题。
 
 
+## 简单案例分析
+
+我们以 Nginx + PHP 的 Web 服务为例，来看看当你发现 CPU 使用率过高的问题后，如何使用 top 等工具找出异常进程，又如何利用 perf 找出引发性能问题的函数。
+
+
+模拟 Nginx 压力
+
+```
+# 并发 10 个请求测试 Nginx 性能，总共测试 100 个请求
+$ ab -c 10 -n 100 http://192.168.0.10:10000/
+This is ApacheBench, Version 2.3 <$Revision: 1706008 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, 
+...
+Requests per second:    11.63 [#/sec] (mean)
+Time per request:       859.942 [ms] (mean)
+...
+```
+
+可以发现 Nginx 的处理能力很差，通过 top 命令分析，得知 php-fpm 进程导致，接下来我们使用 perf 来分析一下具体哪些函数导致 CPU 高。
+
+```bash
+# -g 开启调用关系分析，-p 指定 php-fpm 的进程号 21515
+$ perf top -g -p 21515
+```
+通过 perf 分析到耗时严重的函数，再结合源代码进行定位分析，找出问题原因即可。
+
+
+## 概念小结
+
+CPU 使用率是最直观和最常用的系统性能指标，更是我们在排查性能问题时，通常会关注的第一个指标。所以我们要搞清楚 user、nice、system、iowait、irq、sortirq 这几种不同 CPU 的使用率，比如说：
+
+* 用户 CPU 和 Nice CPU 高，说明用户态进程占用了较多的 CPU，所以应该着重排查进程的性能问题。
+* 系统 CPU 高，说明内核态占用了较多的 CPU，所以应该着重排查内核线程或者系统调用的性能问题。
+* IO 等待 CPU 高，说明等待 IO 的时间比较长，所以应该着重排查系统存储是不是出现了 IO 问题。
+* 软中断和硬中断高，说明软中断或硬中断的处理程序占用了较多的 CPU，所以应该着重排查内核中的中断服务程序。
 
 
 
