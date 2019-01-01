@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Python中列表的常用操作"
+title:  "·"
 categories: Python基础
 tags: Python
-autoors: 肖邦
+author: 肖邦
 ---
 
 * content
