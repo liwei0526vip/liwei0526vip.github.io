@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "·"
+title:  "Python中列表的常用操作"
 categories: Python基础
 tags: Python
 author: 肖邦
