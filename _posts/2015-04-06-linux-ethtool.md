@@ -80,7 +80,7 @@ $ ethtool -k eth0
 * `ntuple-filters`: ntuple
 
 
-#### 6、配置网卡 offload 参数
+## 6、配置网卡 offload 参数
 ```sh
 $ ethtool -K eth0 rx-checksum on|off
 $ ethtool -K eth0 tx-checksum-ip-generic on|off
@@ -90,7 +90,7 @@ $ ethtool -K eth0 gso on | off
 $ ethtool -K eth0 ntuple on | off
 ```
 
-#### 7、查看网卡 ntuple 配置规则
+## 7、查看网卡 ntuple 配置规则
 ```sh
 $ ethtool -n eth5
 24 RX rings available
