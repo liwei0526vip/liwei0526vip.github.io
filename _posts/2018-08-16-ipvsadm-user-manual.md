@@ -147,7 +147,7 @@ $ ipvsadm -C
 ```
 
 
-## 二、ipvsadm命令参数详解
+## ipvsadm命令参数详解
 
 **1、用法**
 
