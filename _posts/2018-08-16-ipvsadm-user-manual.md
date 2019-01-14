@@ -2,7 +2,7 @@
 layout: post
 title:  "ipvsadm 使用手册"
 categories: 负载均衡
-tags: ipvsadm lvs 负载均衡
+tags: ipvsadm lvs
 author: 肖邦
 ---
 
@@ -14,8 +14,7 @@ author: 肖邦
 
 
 
-## 一、ipvsadm常用命令
-### 1、在LVS上新增service
+## 在LVS上新增service
 命令格式：
 ```
 ipvsadm -A -t <vip>:<vport> -s <schedule: rr|wrr|lc|wlc|lblc|lblcr|dh|sh|sed|nq>
@@ -26,7 +25,7 @@ ipvsadm -A -t <vip>:<vport> -s <schedule: rr|wrr|lc|wlc|lblc|lblcr|dh|sh|sed|nq>
 $ ipvsadm -A -t 1.1.1.1:80 -s rr
 ```
 
-### 2、在LVS上修改存在的Service
+## 在LVS上修改存在的Service
 命令格式：
 ```
 ipvsadm -E -t <vip>:<vport> -s <schedule> -j <synproxy> =p <timeout> -M <netmask>
@@ -46,7 +45,7 @@ $ ipvsadm -E -t 2.2.2.2:21 -p 60 -j enable
 注：命令 -E 的选项支持全部指明或部分指明。
 
 
-### 3、在LVS上删除一个service
+## 在LVS上删除一个service
 命令格式：
 ```
 ipvsadm -D -t <vip>:<vport>
@@ -58,7 +57,7 @@ ipvsadm -D -f fwmark
 $ ipvsadm -D -t 1.1.1.1:80
 ```
 
-### 4、新增RealServer
+## 新增RealServer
 命令格式：
 ```
 ipvsadm -a -t <vip>:<vport> -r <rip>:<rport> <forward mode>
@@ -71,7 +70,7 @@ forward mode : -b(FNAT) | -m(NAT) | -g(DR) | -i(TUNNEL)
 $ ipvsadm -a -t 1.1.1.1:80 -r 192.168.1.2:80 -b -w 1
 ```
 
-### 5、修改RealServer
+## 修改RealServer
 命令格式：
 ```
 ipvsadm -e -t <vip>:<vport> -r <rip>:<rport> <forward> -w weight
@@ -83,7 +82,7 @@ ipvsadm -e -t <vip>:<vport> -r <rip>:<rport> <forward> -w weight
 $ ipvsadm -e -t 1.1.1.1:80 -r 192.168.0.1:80 -g -w 12
 ```
 
-### 6、在LVS上删除一个RealServer
+## 在LVS上删除一个RealServer
 命令格式：
 ```
 ipvsadm -d -t <vip>:<vport> -r <rip>:<rport>
@@ -96,7 +95,7 @@ $ ipvsadm -d -t 1.1.1.1:80 -r 192.168.1.1:80
 ```
 
 
-### 7、新增LocalAddress
+## 新增LocalAddress
 命令格式：
 ```
 ipvsadm -P -t <vip>:<vport> -z <localAddress>
@@ -107,7 +106,7 @@ ipvsadm -P -t <vip>:<vport> -z <localAddress>
 $ ipvsadm -P -t 1.1.1.1:80 -z 192.168.1.2
 ```
 
-### 8、删除LocalAddress
+## 删除LocalAddress
 命令格式：
 ```
 ipvsadm -Q -t <vip>:<vport> -z <LocalAddress>
@@ -118,7 +117,7 @@ ipvsadm -Q -t <vip>:<vport> -z <LocalAddress>
 $ ipvsadm -Q -t 1.1.1.1:80 -z 192.168.1.2
 ```
 
-### 9、查看LocalAddress
+## 查看LocalAddress
 命令格式：
 ```
 ipvsadm -G -t <vip>:<vport>
@@ -134,14 +133,14 @@ $ ipvsadm -G -t 1.1.1.1:80
 ```
 
 
-### 10、查看所有LVS对应RealServer
+## 查看所有LVS对应RealServer
 示例：
 ```sh
 # 查看 LVS 以及对应的 RealServer (不解析 IP 和 PORT)
 $ ipvsadm -ln
 ```
 
-### 11、清空所有Service
+## 清空所有Service
 示例：
 ```sh
 $ ipvsadm -C
@@ -149,8 +148,10 @@ $ ipvsadm -C
 
 
 ## 二、ipvsadm命令参数详解
-### 1、用法
-```
+
+**1、用法**
+
+```sh
 Usage:
   ipvsadm -A|E -t|u|f service-address [-s scheduler] [-j eanble/disable] [-p [timeout]] [-M netmask]
   ipvsadm -D -t|u|f service-address
@@ -170,9 +171,10 @@ Usage:
 ```
 
 
-### 2、命令
+**2、命令**
+
 命令格式支持长选项和短选项的格式：
-```
+```sh
 --add-service     -A        在内核的虚拟服务器表中添加一条新的虚拟服务器记录
 --edit-service    -E        编辑内核虚拟服务器表中的一条虚拟服务器记录
 --delete-service  -D        删除内核虚拟服务器表中的一条虚拟服务器记录
@@ -193,8 +195,9 @@ Usage:
 ```
 
 
-### 3、选项
-```
+**3、选项**
+
+```sh
 --tcp-service  -t vip:vport     说明虚拟服务器提供的是 tcp 的服务
 --udp-service  -u vip:vport     说明虚拟服务器提供的是 udp 的服务
 --fwmark-service  -f fwmark     说明是经过iptables 标记过的服务类型
