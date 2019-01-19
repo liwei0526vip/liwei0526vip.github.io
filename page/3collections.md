@@ -30,6 +30,7 @@ type: page
 ## 开源项目
 * **[爱奇艺开源负载均衡-DPVS](https://github.com/iqiyi/dpvs)**。爱奇艺开源的基于 DPDK 高性能负载均衡器(基于 LVS)。
 * **[阿里巴巴开源版本 LVS + FNAT](https://github.com/alibaba/LVS)**。阿里巴巴开源版本 LVS，新增加 FNAT 模式，及 SYN_PROXY 功能。
+* **[ipvsadm 最新代码](https://mirrors.edge.kernel.org/pub/linux/utils/kernel/ipvsadm/)**。·
 * **[GitMent](https://github.com/imsun/gitment)**。使用 Github Issues 作为博客评论系统。
 * **[腾讯开源](https://opensource.tencent.com/)**。腾讯开源项目，开源资源。
 * **[f-stack](https://github.com/F-Stack/f-stack)** - **[fastsocket](https://github.com/fastos/fastsocket)** 。
