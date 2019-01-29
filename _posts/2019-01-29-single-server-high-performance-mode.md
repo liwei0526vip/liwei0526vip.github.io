@@ -34,5 +34,5 @@ author: 肖邦
 
 ## PPC
 
-如图：
+PPC 是 Process Per Connection 的缩写，含义是指每次有新的连接就新建一个进程去专门处理这个连接的请求，这是传统的 UNIX 网络服务器采用的模型，基本流程图是：
 ![PPC](/image/20190129_ppc.jpg)
