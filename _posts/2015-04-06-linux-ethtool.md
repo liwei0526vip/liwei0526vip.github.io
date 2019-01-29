@@ -126,3 +126,20 @@ f   Hash on bytes 0 and 1 of the Layer 4 header of the rx packet.
 n   Hash on bytes 2 and 3 of the Layer 4 header of the rx packet.
 ```
 
+## ·
+
+通过 `-l` 选项查看网卡队列数：
+```bash
+$ ethtool -l eth4
+Channel parameters for eth4:
+Pre-set maximums:
+RX:             16
+TX:             16
+Other:          1
+Combined:       16
+Current hardware settings:
+RX:             0
+TX:             0
+Other:          1
+Combined:       8   # 当前网卡队列数是 8
+```
