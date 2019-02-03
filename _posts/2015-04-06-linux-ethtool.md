@@ -126,7 +126,7 @@ f   Hash on bytes 0 and 1 of the Layer 4 header of the rx packet.
 n   Hash on bytes 2 and 3 of the Layer 4 header of the rx packet.
 ```
 
-## ·
+## 查看网卡队列数量
 
 通过 `-l` 选项查看网卡队列数：
 ```bash
