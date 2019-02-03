@@ -1,15 +1,15 @@
 ---
 layout: post
-title:  "Linux系统ethtool工具的使用"
+title:  "Linux系统下查看网卡相关数据"
 categories: Linux工具
-tags: ethtool Linux工具
+tags: ethtool modinfo
 author: 肖邦
 ---
 
 * content
 {:toc}
 
-> ethtool 工具的常见使用方式总结。
+> 文中记录 ethtool、modinfo 等工具查看网卡相关数据信息。
 
 
 
