@@ -143,3 +143,58 @@ TX:             0
 Other:          1
 Combined:       8   # 当前网卡队列数是 8
 ```
+
+
+## 新浪使用的驱动
+
+* igb 系列驱动：千兆网卡。包含：`82575, 82576, 82580, I210, I211, I350, I354, DH89xx`
+* ixgbe 系列驱动：万兆网卡。包含：`82598, 82599, X520, X540, X550`
+* i40e 系列驱动：万兆网卡。包含：`X710, XL710, X722, XXV710`
+
+
+## 关于驱动常用的几个命令
+
+* `modprobe`：安装网卡驱动
+* `modinfo`：查看网卡驱动具体信息
+* `ethtool -i eth0`：查看某个网口的驱动信息
+* `lvspci`：查看pci信息
+* `depmod`：加载驱动ko的以来模块
+* `cat /proc/interrupt | grep ethx`：查看网卡的队列数。
+
+
+执行以下命令，解决网卡驱动依赖问题
+```bash
+$ depmod -a  2.6.32-642.15.1.sina11.3.1.el6.alpha1.x86_64
+$ modinfo igb -k 2.6.32-642.15.1.sina11.3.1.el6.alpha1.x86_64
+
+$ depmod -a  # 不加内核版本参数，就只针对当前内核
+```
+
+
+## 安装官方igb驱动
+
+* 官网下载即可
+* 编译驱动：`cd src; make && make installl`
+* 编译驱动程序依赖：`kernel-devel` 的rpm包
+* 安装完毕后执行：`depmod -a`、`modinfo igb`
+
+
+## 新驱动可能需要设置开启网卡队列
+
+* 安装新驱动后，reboot后需要查看网卡队列是否开启 `cat /proc/interrupt | grep eth4`
+* 如果没有开启队列，需要配置 `/etc/modprobe.conf` 或 `/etc/modprobe.d/modprobe.conf`
+
+```
+options igb InterruptThrottleRate=3000,3000,3000,3000 RSS=0,0,0,0 LRO=0,0,0,0 QueuePairs=0,0,0,0
+# 具体参数要参考modinfo来设置，RSS=0,0,0,0 分别对应四个网口
+```
+
+
+## 千兆网卡出现CPU不均的情况
+
+* 网卡接收队列包数均匀
+* 网卡发送队列不均匀，基本上都分布在cpu6上
+* 查看中断对应的cpu：`cat /proc/irq/71/smp_affinity`
+* 驱动是igb千兆，网卡型号：`82576`
+* 现象：cpu6负载过高，整体cpu负载提高0.8倍
+
