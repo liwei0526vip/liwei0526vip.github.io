@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "C++编程基础知识点"
-date:   2015-04-15 19:06:05
 categories: C++
 tags: C++
+author: 肖邦
 ---
 
 * content
