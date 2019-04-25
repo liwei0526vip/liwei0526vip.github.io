@@ -144,6 +144,15 @@ Other:          1
 Combined:       8   # 当前网卡队列数是 8
 ```
 
+## 查看网卡队列绑定信息
+
+查看 CPU 与网卡多队列绑定信息，执行如下脚本即可：
+```bash
+# 注意修改网卡名称eth0
+for i in `cat /proc/interrupts | grep eth0 \
+ | awk -F: '{print $1}'`; do echo $i && cat /proc/irq/$i/smp_affinity ; done
+```
+
 
 ## 新浪使用的驱动
 
