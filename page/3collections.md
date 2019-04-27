@@ -20,6 +20,8 @@ type: page
 * **[陶辉笔记](https://www.taohui.pub)** - [陶辉 CSDN 博客](https://blog.csdn.net/russell_tao)。《深入理解 Nginx》作者。
 
 ## 编程语言
+* **[C++ 菜鸟教程](https://www.runoob.com/cplusplus/cpp-tutorial.html)**。
+* **[C 语言中文网](http://c.biancheng.net/cplus/)**。
 
 
 ## 高性能
