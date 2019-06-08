@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Openresty 之 HTTP 服务的功能接口"
+title:  "Openresty之HTTP服务的功能接口"
 categories: openresty
 tags: openresty
 author: 肖邦
