@@ -91,6 +91,7 @@ r = requests.post(url, json=payload)
 HTTP返回的响应消息中很重要的一部分内容是响应体，响应体在 requests 中处理非常灵活，与响应体相关的属性有：content、text、json()。
 
 * content 是 byte 类型，适合直接将内容保存到文件系统或者传输到网络中
+
 ```python
 r = requests.get("https://pic1.zhimg.com/v2-2e92ebadb4a967829dcd7d05908ccab0_b.jpg")
 type(r.content)
@@ -102,6 +103,7 @@ with open("test.jpg", "wb") as f:
 ```
 
 * text 是 str 类型，比如一个普通的 HTML 页面，需要对文本进一步分析时，使用 text。
+
 ```python
 r = requests.get("https://foofish.net/understand-http.html")
 type(r.text)
@@ -110,6 +112,7 @@ re.compile('xxx').findall(r.text)
 ```
 
 * 如果使用第三方开放平台或者API接口爬取数据时，返回的内容是json格式的数据时，那么可以直接使用json()方法返回一个经过json.loads()处理后的对象。
+
 ```python
 r = requests.get('https://www.v2ex.com/api/topics/hot.json')
 r.json()
