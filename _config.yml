@@ -9,7 +9,7 @@
 title: 程序员肖邦的博客
 brief-intro: 享受编程和技术所带来的快乐
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://liwei0526vip.github.io" # the base hostname & protocol for your site
+url: "https://www.linuxblogs.cn" # the base hostname & protocol for your site
 
 permalink: /articles/:title.html
 # permalink: /:year/:month/:day/:title/
@@ -32,7 +32,7 @@ description_footer: 来自程序员肖邦的个人博客！
 duoshuo_shortname: #hygblog
 disqus_shortname: #gaohaoyang
 gitment: liwei0526vip
-
+gitalk: liwei0526vip
 # statistic analysis 统计代码
 # 百度统计 id，将统计代码替换为自己的百度统计id，即
 # hm.src = "//hm.baidu.com/hm.js?xxxxxxxxxxxx";
