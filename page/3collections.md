@@ -18,6 +18,7 @@ type: page
 * **[廖雪峰官方网站](https://www.liaoxuefeng.com/)**。分享教程有 Python、Git、JS、Java 等。
 * **[Python之禅网站](https://foofish.net/)** - [二十次幂](https://www.ershicimi.com/)。分享Python相关文章，Python之禅公众号作者。
 * **[陶辉笔记](https://www.taohui.pub)** - [陶辉 CSDN 博客](https://blog.csdn.net/russell_tao)。《深入理解 Nginx》作者。
+* [崔庆才的个人博客](https://cuiqingcai.com/) - [守望的个人博客](https://www.yanbinghu.com/) - [vamei](https://www.cnblogs.com/vamei) - [良许Linux](http://www.liangxu.cc/)
 
 ## 编程语言
 * **[C++ 菜鸟教程](https://www.runoob.com/cplusplus/cpp-tutorial.html)**。
