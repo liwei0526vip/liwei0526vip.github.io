@@ -12,7 +12,7 @@ type: page
 ## 技术博客
 
 * **[朱双印的个人博客](http://www.zsythink.net/)**。运维相关的技术总结，iptables、linux 等。
-* **[左耳朵耗子--Coolshell](https://coolshell.cn/)**。陈皓，骨灰级程序员，《程序员练级攻略》作者。
+* [左耳朵耗子-陈皓-CoolShell](https://coolshell.cn/) - [如何超过大多数人](https://coolshell.cn/articles/19464.html)
 * **[每天5分钟玩转 OpenStack](https://mp.weixin.qq.com/s/QtdMkt9giEEnvFTQzO9u7g)** - **[Docker](https://mp.weixin.qq.com/s/7o8QxGydMTUe4Q7Tz46Diw)** - **[Kubernetes](https://mp.weixin.qq.com/s/RK6DDc8AUBklsUS7rssW2w)**，作者 CloudMan。
 * **[李运华 CSDN 博客](https://blog.csdn.net/yunhua_lee)**。极客时间《从 0 开始学架构》作者，主要分享架构设计类文章。
 * **[廖雪峰官方网站](https://www.liaoxuefeng.com/)**。分享教程有 Python、Git、JS、Java 等。
