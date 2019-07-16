@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Openresty之HTTP服务的功能接口"
+permalink: /201901.html
 categories: openresty
 tags: openresty
 author: 肖邦
