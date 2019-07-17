@@ -1,5 +1,6 @@
 ---
 layout: post
+date: "2019-06-03 18:31:30"
 title:  "Openresty之HTTP服务的功能接口"
 permalink: /articles/19060300.html
 categories: OpenResty
