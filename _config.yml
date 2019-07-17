@@ -11,7 +11,8 @@ brief-intro: 享受编程和技术所带来的快乐
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.linuxblogs.cn" # the base hostname & protocol for your site
 
-permalink: /articles/:title.html
+# permalink: /articles/:title.html
+permalink: /articles/:short_year:month:day:hour.html
 # permalink: /:year/:month/:day/:title/
 
 # other links
