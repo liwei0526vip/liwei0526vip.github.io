@@ -27,4 +27,5 @@ type: page
 
 ## 友情链接
 
-[陈皓-酷壳-CoolShell](https://coolshell.cn) | [博客园](https://www.cnblogs.com/liwei0526vip)
+* [陈皓-酷壳-CoolShell](https://coolshell.cn)
+* [博客园](https://www.cnblogs.com/liwei0526vip)
