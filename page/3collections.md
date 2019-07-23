@@ -21,11 +21,11 @@ type: page
 
 
 ## 高性能
-* [Linux 高性能交流社区](http://syswift.com/) -- [DPDK 交流社区](http://www.sysight.com/) -- [深入理解 BPF](https://linux.cn/article-9507-1.html) -- [小米高性能负载均衡器](http://blog.itpub.net/31559359/viewspace-2374693/)
+* [Linux 高性能交流社区](http://syswift.com/) -- [DPDK 交流社区](http://www.sysight.com/) -- [深入理解 BPF](https://linux.cn/article-9507-1.html) -- [小米高性能负载均衡器](http://blog.itpub.net/31559359/viewspace-2374693/) -- [Facebook 开源可扩展的网络负载均衡软件 Katran](https://mp.weixin.qq.com/s/9rklxdWLwH6QlgPZuAPauA)
 
 
 ## 开源项目
-* [爱奇艺开源负载均衡-DPVS](https://github.com/iqiyi/dpvs) - [阿里巴巴开源版本 LVS + FNAT](https://github.com/alibaba/LVS) - [ipvsadm 最新代码](https://mirrors.edge.kernel.org/pub/linux/utils/kernel/ipvsadm/) - [GitMent](https://github.com/imsun/gitment) - [腾讯开源](https://opensource.tencent.com/) - [f-stack](https://github.com/F-Stack/f-stack) - [fastsocket](https://github.com/fastos/fastsocket) - [psutil](https://github.com/giampaolo/psutil)
+* [爱奇艺开源负载均衡-DPVS](https://github.com/iqiyi/dpvs) - [阿里巴巴开源版本 LVS + FNAT](https://github.com/alibaba/LVS) [FaceBook负载均衡软件 Katran](https://github.com/facebookincubator/katran)- [ipvsadm 最新代码](https://mirrors.edge.kernel.org/pub/linux/utils/kernel/ipvsadm/) - [GitMent](https://github.com/imsun/gitment) - [腾讯开源](https://opensource.tencent.com/) - [f-stack](https://github.com/F-Stack/f-stack) - [fastsocket](https://github.com/fastos/fastsocket) - [psutil](https://github.com/giampaolo/psutil)
 
 ## 工具类
 
