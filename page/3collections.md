@@ -25,7 +25,7 @@ type: page
 
 
 ## 开源项目
-* [爱奇艺开源负载均衡-DPVS](https://github.com/iqiyi/dpvs) - [阿里巴巴开源版本 LVS + FNAT](https://github.com/alibaba/LVS) -- [FaceBook负载均衡软件 Katran](https://github.com/facebookincubator/katran)- [ipvsadm 最新代码](https://mirrors.edge.kernel.org/pub/linux/utils/kernel/ipvsadm/) - [GitMent](https://github.com/imsun/gitment) - [腾讯开源](https://opensource.tencent.com/) - [f-stack](https://github.com/F-Stack/f-stack) - [fastsocket](https://github.com/fastos/fastsocket) - [psutil](https://github.com/giampaolo/psutil)
+* [爱奇艺开源负载均衡-DPVS](https://github.com/iqiyi/dpvs) -- [IPVS FULLNAT and SYNPROXY](http://kb.linuxvirtualserver.org/wiki/IPVS_FULLNAT_and_SYNPROXY) -- [阿里巴巴开源版本 LVS + FNAT](https://github.com/alibaba/LVS) -- [FaceBook负载均衡软件 Katran](https://github.com/facebookincubator/katran)- [ipvsadm 最新代码](https://mirrors.edge.kernel.org/pub/linux/utils/kernel/ipvsadm/) - [GitMent](https://github.com/imsun/gitment) - [腾讯开源](https://opensource.tencent.com/) - [f-stack](https://github.com/F-Stack/f-stack) - [fastsocket](https://github.com/fastos/fastsocket) - [psutil](https://github.com/giampaolo/psutil)
 
 ## 工具类
 
