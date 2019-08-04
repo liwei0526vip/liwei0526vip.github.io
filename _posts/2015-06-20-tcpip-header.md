@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "TCP/IP 协议报文结构"
+title:  "网络协议报文格式"
 categories: 网络协议
 tags: 报文格式
 date: "2015-06-20 11:44:30"
@@ -39,4 +39,22 @@ IPv6 协议各字段的含义：
 
 
 ## TCP 协议
+
+![TCP 协议报文头格式](/image/20190623_tcp_header.png)
+
+
+## UDP 协议
+
+![UDP 协议报文格式](/image/udpHeader.png)
+
+
+## ICMP 协议
+
+![ICMP 协议报文格式](/image/icmpHeader.png)
+
+
+## DNS 协议
+
+
+## HTTP 协议
 
