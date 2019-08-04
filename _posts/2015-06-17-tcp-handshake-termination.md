@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "TCP的三次握手与四次挥手"
-categories: TCP协议
+categories: 网络协议
 tags: TCP
 author: 肖邦
 ---
