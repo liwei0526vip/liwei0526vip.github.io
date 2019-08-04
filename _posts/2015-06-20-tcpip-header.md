@@ -50,7 +50,7 @@ IPv6 协议各字段的含义：
 
 ## ICMP 协议
 
-![ICMP 协议报文格式](/image/icmpHeader.png)
+![ICMP 协议报文格式](/image/udpHeader.png)
 
 
 ## DNS 协议
