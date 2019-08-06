@@ -35,6 +35,7 @@ type: page
 ## 基础知识
 
 * **TCP 协议**。[TCP 的那些事儿（上）](https://coolshell.cn/articles/11564.html) - [TCP 的那些事儿（下）](https://coolshell.cn/articles/11609.html)
+* **IPv6 协议**。[闲谈IPv6系列文章集锦](https://blog.csdn.net/dog250/article/details/88651885)
 
 
 ## 其它
