@@ -20,7 +20,7 @@ type: page
 
 
 ## 高性能
-* [Linux 高性能交流社区](http://syswift.com/) -- [DPDK 交流社区](http://www.sysight.com/) -- [深入理解 BPF](https://linux.cn/article-9507-1.html) -- [小米高性能负载均衡器](http://blog.itpub.net/31559359/viewspace-2374693/) -- [Facebook 开源可扩展的网络负载均衡软件 Katran](https://mp.weixin.qq.com/s/9rklxdWLwH6QlgPZuAPauA)
+* [Linux 高性能交流社区](http://syswift.com/) -- [DPDK 交流社区](http://www.sysight.com/) -- [深入理解 BPF](https://linux.cn/article-9507-1.html) -- [小米高性能负载均衡器](http://blog.itpub.net/31559359/viewspace-2374693/) -- [Facebook 开源可扩展的网络负载均衡软件 Katran](https://mp.weixin.qq.com/s/9rklxdWLwH6QlgPZuAPauA) -- [开源|iQiYi 高性能开源负载均衡器及应用](https://mp.weixin.qq.com/s/5sgC5nD3CuQon_wLkU3spg)
 * [动态追踪技术漫谈-章亦春OpenResty](https://openresty.org/posts/dynamic-tracing/) -- [OpenResty的现状、趋势、使用及学习方法](https://mp.weixin.qq.com/s/GU59PrShYYG2bgpCJQwjtg) -- [Agentzh的Nginx教程](https://openresty.net.cn/agentzh-nginx-guide.html)
 
 
