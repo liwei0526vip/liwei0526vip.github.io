@@ -23,6 +23,7 @@ type: page
 * [Linux 高性能交流社区](http://syswift.com/) -- [DPDK 交流社区](http://www.sysight.com/) -- [深入理解 BPF](https://linux.cn/article-9507-1.html) -- [小米高性能负载均衡器](http://blog.itpub.net/31559359/viewspace-2374693/) -- [Facebook 开源可扩展的网络负载均衡软件 Katran](https://mp.weixin.qq.com/s/9rklxdWLwH6QlgPZuAPauA) -- [iQiYi 高性能开源负载均衡器及应用](https://mp.weixin.qq.com/s/5sgC5nD3CuQon_wLkU3spg) -- [美团点评高性能四层负载均衡](https://zhuanlan.zhihu.com/p/24826649)
 * [动态追踪技术漫谈-章亦春OpenResty](https://openresty.org/posts/dynamic-tracing/) -- [OpenResty的现状、趋势、使用及学习方法](https://mp.weixin.qq.com/s/GU59PrShYYG2bgpCJQwjtg) -- [Agentzh的Nginx教程](https://openresty.net.cn/agentzh-nginx-guide.html)
 * [DPDK 编程指南（翻译）](https://lockless.github.io/tags/DPDK/)
+* [perf Examples](http://www.brendangregg.com/perf.html)
 
 ## 开源项目
 * [爱奇艺开源负载均衡-DPVS](https://github.com/iqiyi/dpvs) -- [IPVS FULLNAT and SYNPROXY](http://kb.linuxvirtualserver.org/wiki/IPVS_FULLNAT_and_SYNPROXY) -- [阿里巴巴开源版本 LVS + FNAT](https://github.com/alibaba/LVS) -- [FaceBook负载均衡软件 Katran](https://github.com/facebookincubator/katran) --[Google Maglev hashing](https://static.googleusercontent.com/media/research.google.com/zh-CN//pubs/archive/44824.pdf) -- [ipvsadm 最新代码](https://mirrors.edge.kernel.org/pub/linux/utils/kernel/ipvsadm/) - [GitMent](https://github.com/imsun/gitment) - [腾讯开源](https://opensource.tencent.com/) - [f-stack](https://github.com/F-Stack/f-stack) - [fastsocket](https://github.com/fastos/fastsocket) - [psutil](https://github.com/giampaolo/psutil)
