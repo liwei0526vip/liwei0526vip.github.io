@@ -36,3 +36,23 @@ $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/inst
 ```bash
 $ brew install https://raw.githubusercontent.com/kadwanev/bigboybrew/master/Library/Formula/sshpass.rb
 ```
+
+## zsh 替代 bash
+
+* MacOS 上切换到 zsh
+  ```bash
+  $ chsh -s /bin/zsh
+  ```
+* 安装 oh-my-zsh 主题
+  ```bash
+  $ git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
+  $ cp ~/.zshrc ~/.zshrc.orig  # 备份（如果存在的话）
+  $ cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
+  # 重启终端，生效
+  ```
+* 选择主题
+  ```bash
+  # 主题所在目录
+  ~/.oh-my-zsh/themes
+  ZSH_THEME="af-magic"  # 打开 ~/.zshrc 添加一行
+  ```
