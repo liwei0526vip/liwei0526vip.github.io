@@ -20,6 +20,8 @@ author: 肖邦
 > * vscode
 > * 有道云笔记
 > * chrome
+> * ctags
+> * zsh + oh-my-zsh
 
 
 ## brew 安装
@@ -56,3 +58,15 @@ $ brew install https://raw.githubusercontent.com/kadwanev/bigboybrew/master/Libr
   ~/.oh-my-zsh/themes
   ZSH_THEME="af-magic"  # 打开 ~/.zshrc 添加一行
   ```
+
+## ctags 实现函数跳转
+
+* 替代 MacOS 自带 ctags
+  ```bash
+  $ brew install ctags
+  $ echo 'alias ctags="`brew --prefix`/bin/ctags"' >> $HOME/.zshrc
+  $ exec $SHELL
+
+  # ctags -R --exclude=.git --exclude=log *
+  ```
+
