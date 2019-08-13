@@ -56,7 +56,7 @@ $ brew install https://raw.githubusercontent.com/kadwanev/bigboybrew/master/Libr
   ```bash
   # 主题所在目录
   ~/.oh-my-zsh/themes
-  ZSH_THEME="af-magic"  # 打开 ~/.zshrc 添加一行
+  ZSH_THEME="xiong-chiamiov-plus"  # 打开 ~/.zshrc 添加一行
   ```
 
 ## ctags 实现函数跳转
