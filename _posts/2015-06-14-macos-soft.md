@@ -16,28 +16,39 @@ author: 肖邦
 
 ## MacOS 必备软件清单
 
-> * item2 + sshpass
-> * vscode
-> * 有道云笔记
-> * chrome
-> * ctags
-> * zsh + oh-my-zsh
+* item2 + sshpass
+* vscode
+* 有道云笔记
+* chrome
+* ctags
+* zsh + oh-my-zsh
 
 
 ## brew 安装
 
-```bash
-# 参考链接: https://brew.sh
-$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-# 安装过程需要几分钟，需要耐心等待
-```
+* 安装
+  ```bash
+  # 参考链接: https://brew.sh
+  $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  # 安装过程需要几分钟，需要耐心等待
+  ```
+
+## Chrome 常用插件
+
+* Markdown Preview Plus
+* 眼睛卫士
+* Octotree
+* Vimium
+* OneTab
+* Gliffy Diagrams
 
 
 ## sshpass 安装
 
-```bash
-$ brew install https://raw.githubusercontent.com/kadwanev/bigboybrew/master/Library/Formula/sshpass.rb
-```
+* 安装
+  ```bash
+  $ brew install https://raw.githubusercontent.com/kadwanev/bigboybrew/master/Library/Formula/sshpass.rb
+  ```
 
 ## zsh 替代 bash
 
@@ -72,9 +83,10 @@ $ brew install https://raw.githubusercontent.com/kadwanev/bigboybrew/master/Libr
 
 ## 实现 vimIDE 功能
 
-```bash
-$ git clone https://github.com/liwei0526vip/vimide.git
-$ mv vimide/vim ~/.vim
-$ mv vimide/vimrc ~/.vimrc
-# 在vim中复制文本：先按着 Shift 键，然后鼠标选中要赋值的文本进行复制
-```
+* 安装
+  ```bash
+  $ git clone https://github.com/liwei0526vip/vimide.git
+  $ mv vimide/vim ~/.vim
+  $ mv vimide/vimrc ~/.vimrc
+  # 在vim中复制文本：先按着 Shift 键，然后鼠标选中要赋值的文本进行复制
+  ```
