@@ -70,3 +70,11 @@ $ brew install https://raw.githubusercontent.com/kadwanev/bigboybrew/master/Libr
   # ctags -R --exclude=.git --exclude=log *
   ```
 
+## 实现 vimIDE 功能
+
+```bash
+$ git clone https://github.com/liwei0526vip/vimide.git
+$ mv vimide/vim ~/.vim
+$ mv vimide/vimrc ~/.vimrc
+# 在vim中复制文本：先按着 Shift 键，然后鼠标选中要赋值的文本进行复制
+```
