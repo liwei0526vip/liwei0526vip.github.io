@@ -2,7 +2,7 @@
 layout: post
 date: "2019-08-16 22:13:15"
 title:  "如何高效学习和阅读代码"
-categories: 个人中心
+categories: 软件开发
 tags: code
 author: 肖邦
 ---
