@@ -126,9 +126,10 @@ wrk 是一个简单易用、高性能的 http 发包测试工具，同时支持 
 
 ab 是 apache 服务器自带的一个压力测试工具，如果想单独安装，可以执行如下命令：
 
-```bash
-$ yum install httpd-tools -y
-```
+* 安装
+  ```bash
+  $ yum install httpd-tools -y
+  ```
 
 * 安装完成之后，就可以使用 ab 进行测试：
   ```bash
