@@ -9,188 +9,373 @@
 
 <url>
   <loc>https://www.linuxblogs.cn/</loc>
-  <lastmod>2018-08-25T07:19:48+00:00</lastmod>
+  <lastmod>2019-08-18T14:14:34+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://www.linuxblogs.cn/archive/</loc>
-  <lastmod>2018-08-25T07:19:48+00:00</lastmod>
+  <lastmod>2019-08-18T14:14:34+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.linuxblogs.cn/category/</loc>
-  <lastmod>2018-08-25T07:19:48+00:00</lastmod>
+  <lastmod>2019-08-18T14:14:34+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.linuxblogs.cn/tag/</loc>
-  <lastmod>2018-08-25T07:19:48+00:00</lastmod>
+  <lastmod>2019-08-18T14:14:34+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.linuxblogs.cn/collection/</loc>
-  <lastmod>2018-08-25T07:19:48+00:00</lastmod>
+  <lastmod>2019-08-18T14:14:34+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.linuxblogs.cn/about/</loc>
-  <lastmod>2018-08-25T07:19:48+00:00</lastmod>
+  <lastmod>2019-08-18T14:14:34+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.linuxblogs.cn/articles/ipvsadm-user-manual.html</loc>
-  <lastmod>2018-08-25T07:19:48+00:00</lastmod>
+  <loc>https://www.linuxblogs.cn/articles/19081811.html</loc>
+  <lastmod>2019-08-18T14:14:34+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.linuxblogs.cn/articles/linux-kvm-skill.html</loc>
-  <lastmod>2018-08-25T07:19:48+00:00</lastmod>
+  <loc>https://www.linuxblogs.cn/articles/19081622.html</loc>
+  <lastmod>2019-08-18T14:14:34+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.linuxblogs.cn/articles/linux-basic-io-01.html</loc>
-  <lastmod>2018-08-25T07:19:48+00:00</lastmod>
+  <loc>https://www.linuxblogs.cn/articles/19081322.html</loc>
+  <lastmod>2019-08-18T14:14:34+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.linuxblogs.cn/articles/daemon-linux.html</loc>
-  <lastmod>2018-08-25T07:19:48+00:00</lastmod>
+  <loc>https://www.linuxblogs.cn/articles/19081109.html</loc>
+  <lastmod>2019-08-18T14:14:34+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.linuxblogs.cn/articles/update-py26-to-py27.html</loc>
-  <lastmod>2018-08-25T07:19:48+00:00</lastmod>
+  <loc>https://www.linuxblogs.cn/articles/19081019.html</loc>
+  <lastmod>2019-08-18T14:14:34+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.linuxblogs.cn/articles/centos7-nic-ethx.html</loc>
-  <lastmod>2018-08-25T07:19:48+00:00</lastmod>
+  <loc>https://www.linuxblogs.cn/articles/19080415.html</loc>
+  <lastmod>2019-08-18T14:14:34+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.linuxblogs.cn/articles/how-to-use-babel.html</loc>
-  <lastmod>2018-08-25T07:19:48+00:00</lastmod>
+  <loc>https://www.linuxblogs.cn/page2/</loc>
+  <lastmod>2019-08-18T14:14:34+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.linuxblogs.cn/articles/JavaScript-good-parts-note3.html</loc>
-  <lastmod>2018-08-25T07:19:48+00:00</lastmod>
+  <loc>https://www.linuxblogs.cn/page10/</loc>
+  <lastmod>2019-08-18T14:14:34+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.linuxblogs.cn/articles/JavaScript-good-parts-note2.html</loc>
-  <lastmod>2018-08-25T07:19:48+00:00</lastmod>
+  <loc>https://www.linuxblogs.cn/articles/19060318.html</loc>
+  <lastmod>2019-08-18T14:14:34+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.linuxblogs.cn/articles/JavaScript-good-parts-note1.html</loc>
-  <lastmod>2018-08-25T07:19:48+00:00</lastmod>
+  <loc>https://www.linuxblogs.cn/articles/19051800.html</loc>
+  <lastmod>2019-08-18T14:14:34+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.linuxblogs.cn/articles/regular-expression-group.html</loc>
-  <lastmod>2018-08-25T07:19:48+00:00</lastmod>
+  <loc>https://www.linuxblogs.cn/articles/19012900.html</loc>
+  <lastmod>2019-08-18T14:14:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.linuxblogs.cn/articles/18121600.html</loc>
+  <lastmod>2019-08-18T14:14:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.linuxblogs.cn/articles/18121100.html</loc>
+  <lastmod>2019-08-18T14:14:34+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.linuxblogs.cn/articles/jekyll-theme-version-2.0.html</loc>
-  <lastmod>2018-08-25T07:19:48+00:00</lastmod>
+  <loc>https://www.linuxblogs.cn/articles/18120200.html</loc>
+  <lastmod>2019-08-18T14:14:34+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.linuxblogs.cn/articles/History-API.html</loc>
-  <lastmod>2018-08-25T07:19:48+00:00</lastmod>
+  <loc>https://www.linuxblogs.cn/articles/18120100.html</loc>
+  <lastmod>2019-08-18T14:14:34+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.linuxblogs.cn/articles/low-IE-click-empty-block-bug.html</loc>
-  <lastmod>2018-08-25T07:19:48+00:00</lastmod>
+  <loc>https://www.linuxblogs.cn/articles/18112400.html</loc>
+  <lastmod>2019-08-18T14:14:34+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.linuxblogs.cn/articles/JavaScript-Net.html</loc>
-  <lastmod>2018-08-25T07:19:48+00:00</lastmod>
+  <loc>https://www.linuxblogs.cn/articles/18110300.html</loc>
+  <lastmod>2019-08-18T14:14:34+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.linuxblogs.cn/articles/weinre.html</loc>
-  <lastmod>2018-08-25T07:19:48+00:00</lastmod>
+  <loc>https://www.linuxblogs.cn/articles/18110200.html</loc>
+  <lastmod>2019-08-18T14:14:34+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.linuxblogs.cn/articles/web-app.html</loc>
-  <lastmod>2018-08-25T07:19:48+00:00</lastmod>
+  <loc>https://www.linuxblogs.cn/articles/18102900.html</loc>
+  <lastmod>2019-08-18T14:14:34+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.linuxblogs.cn/articles/JavaScript-Object-Oriented.html</loc>
-  <lastmod>2018-08-25T07:19:48+00:00</lastmod>
+  <loc>https://www.linuxblogs.cn/articles/18102800.html</loc>
+  <lastmod>2019-08-18T14:14:34+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.linuxblogs.cn/articles/JavaScript-closure.html</loc>
-  <lastmod>2018-08-25T07:19:48+00:00</lastmod>
+  <loc>https://www.linuxblogs.cn/articles/18081600.html</loc>
+  <lastmod>2019-08-18T14:14:34+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.linuxblogs.cn/articles/JavaScript-this.html</loc>
-  <lastmod>2018-08-25T07:19:48+00:00</lastmod>
+  <loc>https://www.linuxblogs.cn/articles/18080400.html</loc>
+  <lastmod>2019-08-18T14:14:34+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.linuxblogs.cn/articles/JavaScript-function.html</loc>
-  <lastmod>2018-08-25T07:19:48+00:00</lastmod>
+  <loc>https://www.linuxblogs.cn/articles/18080300.html</loc>
+  <lastmod>2019-08-18T14:14:34+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.linuxblogs.cn/articles/lenovo-front-end-interview.html</loc>
-  <lastmod>2018-08-25T07:19:48+00:00</lastmod>
+  <loc>https://www.linuxblogs.cn/articles/18060100.html</loc>
+  <lastmod>2019-08-18T14:14:34+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.linuxblogs.cn/articles/scope.html</loc>
-  <lastmod>2018-08-25T07:19:48+00:00</lastmod>
+  <loc>https://www.linuxblogs.cn/articles/18051600.html</loc>
+  <lastmod>2019-08-18T14:14:34+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.linuxblogs.cn/articles/front-end-tools.html</loc>
-  <lastmod>2018-08-25T07:19:48+00:00</lastmod>
+  <loc>https://www.linuxblogs.cn/articles/18050100.html</loc>
+  <lastmod>2019-08-18T14:14:34+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.linuxblogs.cn/articles/baidu-ife-2-javascript.html</loc>
-  <lastmod>2018-08-25T07:19:48+00:00</lastmod>
+  <loc>https://www.linuxblogs.cn/articles/17061000.html</loc>
+  <lastmod>2019-08-18T14:14:34+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.linuxblogs.cn/articles/baidu-ife-1.html</loc>
-  <lastmod>2018-08-25T07:19:48+00:00</lastmod>
+  <loc>https://www.linuxblogs.cn/articles/17021900.html</loc>
+  <lastmod>2019-08-18T14:14:34+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.linuxblogs.cn/articles/Syncing-a-fork.html</loc>
-  <lastmod>2018-08-25T07:19:48+00:00</lastmod>
+  <loc>https://www.linuxblogs.cn/articles/17021600.html</loc>
+  <lastmod>2019-08-18T14:14:34+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.linuxblogs.cn/articles/arrays-similar.html</loc>
-  <lastmod>2018-08-25T07:19:48+00:00</lastmod>
+  <loc>https://www.linuxblogs.cn/articles/17021400.html</loc>
+  <lastmod>2019-08-18T14:14:34+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.linuxblogs.cn/articles/sublimeLinter.html</loc>
-  <lastmod>2018-08-25T07:19:48+00:00</lastmod>
+  <loc>https://www.linuxblogs.cn/articles/17021100.html</loc>
+  <lastmod>2019-08-18T14:14:34+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.linuxblogs.cn/articles/teach-girlfriend-html-css.html</loc>
-  <lastmod>2018-08-25T07:19:48+00:00</lastmod>
+  <loc>https://www.linuxblogs.cn/articles/17020600.html</loc>
+  <lastmod>2019-08-18T14:14:34+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.linuxblogs.cn/articles/create-my-blog-with-jekyll.html</loc>
-  <lastmod>2018-08-25T07:19:48+00:00</lastmod>
+  <loc>https://www.linuxblogs.cn/articles/17020100.html</loc>
+  <lastmod>2019-08-18T14:14:34+00:00</lastmod>
   <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.linuxblogs.cn/articles/17012500.html</loc>
+  <lastmod>2019-08-18T14:14:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.linuxblogs.cn/articles/17012000.html</loc>
+  <lastmod>2019-08-18T14:14:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.linuxblogs.cn/articles/17011500.html</loc>
+  <lastmod>2019-08-18T14:14:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.linuxblogs.cn/articles/17011300.html</loc>
+  <lastmod>2019-08-18T14:14:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.linuxblogs.cn/articles/17011000.html</loc>
+  <lastmod>2019-08-18T14:14:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.linuxblogs.cn/articles/17010500.html</loc>
+  <lastmod>2019-08-18T14:14:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.linuxblogs.cn/articles/16060800.html</loc>
+  <lastmod>2019-08-18T14:14:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.linuxblogs.cn/articles/16060700.html</loc>
+  <lastmod>2019-08-18T14:14:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.linuxblogs.cn/articles/16050600.html</loc>
+  <lastmod>2019-08-18T14:14:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.linuxblogs.cn/articles/16031200.html</loc>
+  <lastmod>2019-08-18T14:14:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.linuxblogs.cn/articles/15062011.html</loc>
+  <lastmod>2019-08-18T14:14:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.linuxblogs.cn/articles/15061800.html</loc>
+  <lastmod>2019-08-18T14:14:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.linuxblogs.cn/articles/15061700.html</loc>
+  <lastmod>2019-08-18T14:14:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.linuxblogs.cn/articles/15061500.html</loc>
+  <lastmod>2019-08-18T14:14:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.linuxblogs.cn/articles/15061400.html</loc>
+  <lastmod>2019-08-18T14:14:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.linuxblogs.cn/articles/15061200.html</loc>
+  <lastmod>2019-08-18T14:14:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.linuxblogs.cn/articles/15061100.html</loc>
+  <lastmod>2019-08-18T14:14:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.linuxblogs.cn/articles/15060100.html</loc>
+  <lastmod>2019-08-18T14:14:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.linuxblogs.cn/articles/15052000.html</loc>
+  <lastmod>2019-08-18T14:14:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.linuxblogs.cn/articles/15051800.html</loc>
+  <lastmod>2019-08-18T14:14:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.linuxblogs.cn/articles/15042200.html</loc>
+  <lastmod>2019-08-18T14:14:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.linuxblogs.cn/articles/15041500.html</loc>
+  <lastmod>2019-08-18T14:14:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.linuxblogs.cn/articles/15041200.html</loc>
+  <lastmod>2019-08-18T14:14:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.linuxblogs.cn/articles/15040600.html</loc>
+  <lastmod>2019-08-18T14:14:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.linuxblogs.cn/articles/15032600.html</loc>
+  <lastmod>2019-08-18T14:14:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.linuxblogs.cn/articles/15032100.html</loc>
+  <lastmod>2019-08-18T14:14:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.linuxblogs.cn/articles/15021200.html</loc>
+  <lastmod>2019-08-18T14:14:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.linuxblogs.cn/index.html</loc>
+  <lastmod>2019-08-18T14:14:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.linuxblogs.cn/page3/</loc>
+  <lastmod>2019-08-18T14:14:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.linuxblogs.cn/page9/</loc>
+  <lastmod>2019-08-18T14:14:34+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.linuxblogs.cn/page4/</loc>
+  <lastmod>2019-08-18T14:14:34+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.linuxblogs.cn/page8/</loc>
+  <lastmod>2019-08-18T14:14:34+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.linuxblogs.cn/page5/</loc>
+  <lastmod>2019-08-18T14:14:34+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.linuxblogs.cn/page7/</loc>
+  <lastmod>2019-08-18T14:14:34+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.linuxblogs.cn/page6/</loc>
+  <lastmod>2019-08-18T14:14:34+00:00</lastmod>
+  <priority>0.33</priority>
 </url>
 
 
