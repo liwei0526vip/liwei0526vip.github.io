@@ -14,6 +14,7 @@ author: 肖邦
 
 
 
+
 ## 常用的发包工具
 
 * wrk [Github 地址](https://github.com/wg/wrk)
@@ -26,7 +27,6 @@ author: 肖邦
 wrk 是一个简单易用、高性能的 http 发包测试工具，同时支持 IPv6、https 。另外支持自定义的 Lua 脚本，可以自定义请求生成、响应处理、自定义报告内容等，在 Github 上已经有 2 万多个 Star 了。
 
 * 安装
-
     ```bash
     $ cd $workdir
     $ git clone https://github.com/wg/wrk.git
@@ -37,7 +37,6 @@ wrk 是一个简单易用、高性能的 http 发包测试工具，同时支持 
     ```
 
 * 基本用法
-
     ```bash
     $ ./wrk -t12 -c400 -d30s http://127.0.0.1:8080/index.html
     # -t: 总的线程数，一般设置为 cpu 个数
@@ -47,7 +46,6 @@ wrk 是一个简单易用、高性能的 http 发包测试工具，同时支持 
     ```
 
 * 输出信息
-
     ```bash
     Running 30s test @ http://127.0.0.1:8080/index.html
       12 threads and 400 connections
@@ -59,14 +57,9 @@ wrk 是一个简单易用、高性能的 http 发包测试工具，同时支持 
     Transfer/sec:    606.33MB
     ```
 
-
-
-
-
 ## 发包工具 http_load
 
 * http_load 安装
-
     ```bash
     $ wget http://www.acme.com/software/http_load/http_load-09Mar2016.tar.gz
     $ tar zxf http_load-09Mar2016.tar.gz
@@ -74,7 +67,6 @@ wrk 是一个简单易用、高性能的 http 发包测试工具，同时支持 
     ```
 
 * 基本用法
-
     ```bash
     # 封装到 shell 脚本中
     
@@ -97,21 +89,15 @@ wrk 是一个简单易用、高性能的 http 发包测试工具，同时支持 
 * 输出数据（存储在 result 目录中的 resultN 文件中）
 
 * 注意几个参数
-
     ```bash
     -sip : 指定源 IP 文件（sip1.txt 文件中记录的源 IP 地址）
     -p : 并发连接数
     -s : 运行时间
     ```
 
-
-
 ## 发包工具 webbench
 
-
-
 * webbench 安装
-
     ```bash
     $ wget http://home.tiscali.cz/~cz210552/distfiles/webbench-1.5.tar.gz
     $ tar zxvf webbench-1.5.tar.gz
@@ -121,7 +107,6 @@ wrk 是一个简单易用、高性能的 http 发包测试工具，同时支持 
     ```
 
 * 基本用法
-
     ```bash
     $ webbench -c 100 -t 100 http://192.168.11.15:8088/
     # -c : 客户端的个数，webbench 通过 fork 出 N 个进程来模拟客户端
@@ -129,7 +114,6 @@ wrk 是一个简单易用、高性能的 http 发包测试工具，同时支持 
     ```
 
 * 输出数据
-
     ```bash
     Benchmarking: GET http://192.168.11.15:8088/
     200 clients, running 10 sec.
@@ -137,8 +121,6 @@ wrk 是一个简单易用、高性能的 http 发包测试工具，同时支持 
     Speed=25383546 pages/min, 24114374 bytes/sec.
     Requests: 4230591 susceed, 0 failed.
     ```
-
-
 
 ## 发包工具 ab
 
@@ -149,37 +131,33 @@ $ yum install httpd-tools -y
 ```
 
 * 安装完成之后，就可以使用 ab 进行测试：
-
-```bash
-$ ab -n 1000 -c 100 https://baidu.com
-# -n : 本次测试执行 N 个请求数
-# -c : 指的是并发连接数
-```
+    ```bash
+    $ ab -n 1000 -c 100 https://baidu.com
+    # -n : 本次测试执行 N 个请求数
+    # -c : 指的是并发连接数
+    ```
 
 * 输出数据
-
-```bash
-
-Concurrency Level:      100
-Time taken for tests:   25.404 seconds
-Complete requests:      1000000
-Failed requests:        0
-Write errors:           0
-Total transferred:      57000000 bytes
-HTML transferred:       0 bytes
-Requests per second:    39363.39 [#/sec] (mean)
-Time per request:       2.540 [ms] (mean)
-Time per request:       0.025 [ms] (mean, across all concurrent requests)
-Transfer rate:          2191.13 [Kbytes/sec] received
-
-Connection Times (ms)
-              min  mean[+/-sd] median   max
-Connect:        0    1   0.2      1       2
-Processing:     0    1   0.2      1       3
-Waiting:        0    1   0.2      1       3
-Total:          1    3   0.1      3       4
-... ...
-```
+    ```bash
+    Concurrency Level:      100
+    Time taken for tests:   25.404 seconds
+    Complete requests:      1000000
+    Failed requests:        0
+    Write errors:           0
+    Total transferred:      57000000 bytes
+    HTML transferred:       0 bytes
+    Requests per second:    39363.39 [#/sec] (mean)
+    Time per request:       2.540 [ms] (mean)
+    Time per request:       0.025 [ms] (mean, across all concurrent requests)
+    Transfer rate:          2191.13 [Kbytes/sec] received
+    Connection Times (ms)
+                  min  mean[+/-sd] median   max
+    Connect:        0    1   0.2      1       2
+    Processing:     0    1   0.2      1       3
+    Waiting:        0    1   0.2      1       3
+    Total:          1    3   0.1      3       4
+    ... ...
+    ```
 
 测试结果中，重点关注 `Requests per second` 和 `Time per request` ，分别是每秒请求数和单个请求耗时。
 
