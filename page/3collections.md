@@ -42,3 +42,5 @@ type: page
 ## 其它
 
 * [CentOS 官方相关 RPM 下载链接](https://buildlogs.centos.org/)
+* [sitemap 生成](https://www.xml-sitemaps.com/)
+
