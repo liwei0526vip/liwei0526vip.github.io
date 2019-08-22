@@ -22,6 +22,7 @@ author: 肖邦
 * chrome
 * ctags
 * zsh + oh-my-zsh
+* Beyond Compare
 
 
 ## brew 安装
@@ -90,3 +91,27 @@ author: 肖邦
   $ mv vimide/vimrc ~/.vimrc
   # 在vim中复制文本：先按着 Shift 键，然后鼠标选中要赋值的文本进行复制
   ```
+
+## Beyond Compare 安装
+
+* 下载安装
+
+  ```bash
+  https://www.scootersoftware.com/download.php
+  ```
+
+* 破解（启动前删除注册证书）
+
+  ```bash
+  $ cd /Applications/Beyond Compare.app/Contents/MacOS
+  $ mv BCompare BCompare.real
+  
+  # 新建文件，内容如下：
+  #!/bin/bash
+  rm "/Users/$(whoami)/Library/Application Support/Beyond Compare/registry.dat"
+  "`dirname "$0"`"/BCompare.real $@
+  # 赋予可执行权限
+  $ chmod a+x BCompare
+  ```
+
+* 重新启动应用程序即可。
