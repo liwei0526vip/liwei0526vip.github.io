@@ -115,3 +115,13 @@ author: 肖邦
   ```
 
 * 重新启动应用程序即可。
+
+## 如何批量下载网页资源
+
+使用 wget 进行下载：
+
+```bash
+$ wget -r -nd -np --accept=pdf http://fast.dpdk.org/doc/pdf-guides/
+# --accept 选项指定资源类型格式 pdf
+```
+
