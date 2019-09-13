@@ -25,6 +25,15 @@ author: 肖邦
 * Beyond Compare
 
 
+
+## MacOS 常用配置
+
+* **开启触摸板`选择文字`**："设置" -> “辅助功能” -> "鼠标与触摸板" -> "触控板选项" -> 选择"启用拖移"，并选择"使用拖移锁定" -> “好”
+* **关闭仪表盘桌面**："设置" -> "调度中心" -> "仪表盘【关闭】"
+
+
+
+
 ## brew 安装
 
 * 安装
@@ -56,6 +65,9 @@ author: 肖邦
 * MacOS 上切换到 zsh
   ```bash
   $ chsh -s /bin/zsh
+  
+  # 如果Linux系统没有zsh，则可以执行如下命令安装
+  $ yum install zsh -y
   ```
 * 安装 oh-my-zsh 主题
   ```bash
@@ -66,8 +78,10 @@ author: 肖邦
   ```
 * 选择主题
   ```bash
-  # 主题所在目录
+  # 主题所在目录:
   ~/.oh-my-zsh/themes
+  
+  $ vim ~/.zshrc
   ZSH_THEME="xiong-chiamiov-plus"  # 打开 ~/.zshrc 添加一行
   ```
 
@@ -106,7 +120,7 @@ author: 肖邦
   $ cd /Applications/Beyond Compare.app/Contents/MacOS
   $ mv BCompare BCompare.real
   
-  # 新建文件，内容如下：
+  # 新建文件BCompare，内容如下：
   #!/bin/bash
   rm "/Users/$(whoami)/Library/Application Support/Beyond Compare/registry.dat"
   "`dirname "$0"`"/BCompare.real $@
@@ -118,10 +132,10 @@ author: 肖邦
 
 ## 如何批量下载网页资源
 
-使用 wget 进行下载：
+* 使用 wget 进行下载
 
-```bash
-$ wget -r -nd -np --accept=pdf http://fast.dpdk.org/doc/pdf-guides/
-# --accept 选项指定资源类型格式 pdf
-```
+  ```bash
+  $ wget -r -nd -np --accept=pdf http://fast.dpdk.org/doc/pdf-guides/
+  # --accept 选项指定资源类型格式 pdf
+  ```
 
