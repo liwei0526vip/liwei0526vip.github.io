@@ -15,7 +15,7 @@ author: 肖邦
 
 
 
-<h2><center>常用的发包工具</center></h2>
+<h2><font color="blue">常用的发包工具</font></h2>
 
 * wrk [Github 地址](https://github.com/wg/wrk)
 * http_load [官方地址](http://www.acme.com/software/http_load/)
