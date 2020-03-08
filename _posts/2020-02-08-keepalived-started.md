@@ -1,6 +1,6 @@
 ---
 layout: post
-date: "2020-01-08 20:13:13"
+date: "2020-02-08 20:13:13"
 title:  "keepalived 入门介绍"
 categories: 负载均衡
 tags: lvs
