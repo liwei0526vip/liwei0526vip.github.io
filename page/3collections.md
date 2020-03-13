@@ -43,4 +43,5 @@ type: page
 * [CentOS 官方相关 RPM 下载链接](https://buildlogs.centos.org/)
 * [sitemap 生成](https://www.xml-sitemaps.com/)
 * [在线画图工具 processon](https://processon.com/)
+* [IT 熊猫-电子书下载](https://itpanda.net/)
 
