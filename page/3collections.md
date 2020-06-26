@@ -17,6 +17,7 @@ type: page
 
 ## 编程语言
 * [C++ 菜鸟教程](https://www.runoob.com/cplusplus/cpp-tutorial.html) - [C 语言中文网](http://c.biancheng.net/cplus/) - [C++ Boost 库](https://www.cnblogs.com/lidabo/p/9294874.html)
+* [Bash 脚本教程-阮一峰](https://wangdoc.com/bash/)
 
 
 ## 高性能
