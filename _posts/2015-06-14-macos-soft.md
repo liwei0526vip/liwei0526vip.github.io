@@ -176,5 +176,12 @@ author: 肖邦
     - 在虚拟机中，ping 外网，测试公网是否连通
 - 到此为止，vbox 设置完毕
 
+## Git 命令行常用快捷键
 
+> 需要安装 oh-my-zsh
+
+- `gst` - `git status`
+- `gco` - `git checkout`
+- `gcmsg` - `git commit -m`
+- `gb` - `git branch`
 
